@@ -7,9 +7,7 @@ This project focuses on developing an Extreme Gradient Boosting (XGBoost) regres
 
 ### Key Objectives
 1. Data Exploration
-
-2. Machine learning: Build a model to predict trip duration and estimated fare. (We used a similar pricing as BIKE SHARE TORONTO to generate our revenue.)
-
+2. Machine learning: Build a model to predict trip duration and estimated fare. (We used a similar pricing as BIKE SHARE TORONTO to generate our revenue)
 3. Visualization/Implementation: Design an interface that provides users with an estimate of a trip given the start an end station.
 
 ![altimage](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/cyclistic.jpg)
