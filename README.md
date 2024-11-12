@@ -2,6 +2,8 @@
 ### Project Overview
 The CEO of a bike-share company is looking to enhance customer experience by introducing a feature that provides users with an estimated trip duration (ETA) when travelling between stations. By offering an ETA, the company can also estimate the fare for each trip, giving customers a clear cost expectation. From a business perspective, this machine learning (ML) model will be a valuable tool for tracking potential trip revenue.
 
+![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/Dashboard.png)
+
 ### Problem Statement
 This project focuses on developing an Extreme Gradient Boosting (XGBoost) regression model that can accurately predict ride durations and estimate fares based on multiple influencing factors, such as weather conditions, station distances, user membership, and bike type. By training the model with historical trip data combined with real-time factors, it aims to deliver accurate ETAs for users.
 
