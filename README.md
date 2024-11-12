@@ -2,6 +2,8 @@
 ### Project Overview
 The CEO of a bike-share company is looking to enhance customer experience by introducing a feature that provides users with an estimated trip duration (ETA) when travelling between stations. By offering an ETA, the company can also estimate the fare for each trip, giving customers a clear cost expectation. From a business perspective, this machine learning (ML) model will be a valuable tool for tracking potential trip revenue.
 
+*Here is a look at the desired interface for bike-sharing users*
+
 ![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/Dashboard.png)
 
 ### Problem Statement
