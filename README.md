@@ -1,14 +1,16 @@
 # Predicting-Trip-Duration-using-XGBoost
 ### Project Overview
-The CEO of a bike-share company is looking to enhance customer experience by introducing a feature that provides users with an estimated trip duration (ETA) when travelling between stations using historical trips taken by other members. By offering an ETA, the company can also estimate the fare for each trip, giving customers a clear cost expectation. From a business perspective, this machine learning (ML) model will be a valuable tool for tracking potential trip revenue.
+The CEO of a bike-share company is looking to enhance customer experience by introducing a feature that provides users with an estimated trip duration (ETA) when travelling between stations. By offering an ETA, the company can also estimate the fare for each trip, giving customers a clear cost expectation. From a business perspective, this machine learning (ML) model will be a valuable tool for tracking potential trip revenue.
 
 ### Problem Statement
-This project focuses on developing an Extreme Gradient Boosting (XGBoost) regression model with that can accurately predict ride durations and estimate fares based on multiple influencing factors, such as weather conditions, station distances, user membership, and bike type. By training the model with historical trip data combined with real-time factors, it aims to deliver accurate ETAs for users.
+This project focuses on developing an Extreme Gradient Boosting (XGBoost) regression model that can accurately predict ride durations and estimate fares based on multiple influencing factors, such as weather conditions, station distances, user membership, and bike type. By training the model with historical trip data combined with real-time factors, it aims to deliver accurate ETAs for users.
 
 ### Key Objectives
-1. Data Exploration & Visualization
-2. Machine learning:
-    - Build a model to predict trip duration and estimated fare. (We used a similar pricing as BIKE SHARE TORONTO to generate our revenue.)
+1. Data Exploration
+
+2. Machine learning: Build a model to predict trip duration and estimated fare. (We used a similar pricing as BIKE SHARE TORONTO to generate our revenue.)
+
+3. Visualization/Implementation: Design an interface that provides users with an estimate of a trip given the start an end station.
 
 ![altimage](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/cyclistic.jpg)
 
