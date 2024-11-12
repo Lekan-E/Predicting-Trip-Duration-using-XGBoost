@@ -18,9 +18,9 @@ This project focuses on developing an Extreme Gradient Boosting (XGBoost) regres
 The data contains over 5 million records of trips taken from 2020 to 2021. To improve our model's performance, we need to collect/extract the following data:
 
 - Holiday Dates - Via webscraping we extracted the dates and events for the whole year
-    - Source: https://www.timeanddate.com/weather/usa/chicago/historic?month=1&year=2021
+    - Source: [LINK](https://www.timeanddate.com/weather/usa/chicago/historic?month=1&year=2021)
 - Weather: Collect hourly data for each day with over 8,785 records.
-    - Source: (PAID) https://www.visualcrossing.com/weather/weather-data-services/Chicago,United%20States/metric/2020-12-01/2021-11-30
+    - Source: [LINK](https://www.visualcrossing.com/weather/weather-data-services/Chicago,United%20States/metric/2020-12-01/2021-11-30)
 
 ![altimage](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/f5c1eaeaeaa54350c2ec5ddf7a3f3de858b5de86/Images/Misc/drawSQL-image-export-2024-09-27.png)
 
@@ -68,7 +68,7 @@ Below is a summary of the XGBoost model's evaluation metrics:
 - Explained Variance Score: 0.61
 
 The error distribution reveals some insights:
-- **Impact on Short and Long Trips**: The XGBoost model had a MAE of 225.93 seconds (approximately 3 minutes, 75 seconds), which equates to about 27% of the average ride duration from all trips in our data. This suggests that, on average, the model’s predictions are off by a few minutes, which can be a larger proportion of total ride time for shorter trips and a relatively minor issue for longer trips. For example, a 3-minute error is more impactful in a 10-minute trip than in a 40-minute one.
+- **Impact on Short and Long Trips**: The XGBoost model had a MAE of 225.93 seconds (approximately 3 minutes, 75 seconds), which equates to about 27% of the average ride duration from all trips in our data. For example, a 3-minute error is more impactful in a 10-minute trip than in a 40-minute one.
 - **Effect of Outliers**: The MAE and RMSE show higher variability, likely due to outliers in the dataset, such as longer, unpredictable rides taken by casual users. Casual riders often have more exploratory travel patterns, unlike members who typically follow predictable routes.
 
 ## Further Evaluation - Residual Distribution
