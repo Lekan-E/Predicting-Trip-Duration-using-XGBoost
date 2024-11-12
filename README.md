@@ -6,10 +6,10 @@ The CEO of a bike-share company is looking to enhance customer experience by int
 This project focuses on developing an Extreme Gradient Boosting (XGBoost) regression model that can accurately predict ride durations and estimate fares based on multiple influencing factors, such as weather conditions, station distances, user membership, and bike type. By training the model with historical trip data combined with real-time factors, it aims to deliver accurate ETAs for users.
 
 *Here is a look at the desired interface for bike-sharing users*
-Here is a link to the interactive dashboard - [LINK](https://public.tableau.com/views/BikeRideCostEstimatior/RidePlanner?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/Dashboard.png)
 
+Link to the interactive dashboard - [LINK](https://public.tableau.com/views/BikeRideCostEstimatior/RidePlanner?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ### Key Objectives
 1. Data Exploration
