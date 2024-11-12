@@ -36,6 +36,8 @@ During EDA, we analyzed factors influencing ride durations, such as time of day,
 
 Taking a deeper look at the ride duration by member type, casual riders were observed to have longer trip durations, likely due to leisure or tourism activities, whereas members tended to use the service for commuting. These distinctions will aid in the model’s predictions.
 
+Check out the EDA GitHub Page where I performed a deeper analysis of the data - [LINK](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion)
+
 ![altimage](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/memberdistribution.png)
 
 ## Machine Learning Model Overwiew
