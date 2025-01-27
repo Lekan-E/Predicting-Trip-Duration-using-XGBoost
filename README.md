@@ -7,9 +7,9 @@ This project focuses on developing an Extreme Gradient Boosting (XGBoost) regres
 
 *Here is a look at the desired interface for bike-sharing users*
 
-![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/Dashboard.png)
+![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/45fb789622ab2431e3700e943fbdf249d21b79f6/Images/bike-app.png)
 
-Link to the interactive dashboard - [LINK](https://public.tableau.com/views/BikeRideCostEstimatior/RidePlanner?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+Link to the interactive dashboard - [LINK](https://bikeshare-app.streamlit.app/).
 
 ### Key Objectives
 1. Data Exploration
@@ -91,13 +91,13 @@ Overall, the residual distribution suggests that the model performs reasonably w
 ## Implementation/Final Results
 Below is a look at a sample interactive dashboard that provides a comprehensive overview of bike trips for users. The dashboard displays, the distance between the stations showing the optimal bike route, estimated trip duration and total cost.
 
-Here is a link to the interactive dashboard - [LINK](https://public.tableau.com/views/BikeRideCostEstimatior/RidePlanner?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+Here is a link to the interactive dashboard - [LINK](https://bikeshare-app.streamlit.app/).
 
 ### Description of the Interactive Elements
 - The primary elements is an interface that will allow a user input the start and end station, member and bike type for the machine learning to output an estimated trip duration and fare.
 - **Graphhopper** - This allows us to plot the optimal bike route for the trip, given the start and end positions. 
 
-![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/4c3ed1f8589de6a8868f2240df839f6fc77af609/Images/Dashboard.png)
+![ALTIMAGE](https://github.com/Lekan-E/Predicting-Trip-Duration-using-XGBoost/blob/45fb789622ab2431e3700e943fbdf249d21b79f6/Images/bike-app.png)
 
 Here are some use cases for this dashboard for users and the company:
 - **Trip Cost Estimation**: Users can calculate the estimated cost of a bike trip by specifying trip details. This helps members and casual users budget their rides based on distance and bike type.
